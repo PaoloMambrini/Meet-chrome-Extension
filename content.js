@@ -1,11 +1,4 @@
-/*
-document.addEventListener('DOMContentLoaded', function(){
-  document.querySelector(".btn").addEventListener("click", Funzione1, false)
-  function Funzione1(){
-      *.querySelector('.SDkEP').style.background = "red"
-  }
-}, false)
-*/
+
 
 chrome.runtime.onMessage.addListener(function (colore){
   cambia_tema(colore)
@@ -53,7 +46,7 @@ function cambia_tema(colore){
   }else{
     document.querySelector(".css_extension").innerHTML = newContent
   }
-  // add the newly created element and its content into the DOM
+  
 
 }
 
@@ -116,28 +109,7 @@ document.querySelector("#btnCopy").addEventListener("click", function (){
   document.querySelector('#btnCopy').querySelector('p').innerHTML = 'link copied'
 
 });
-//https://meet.google.com/edj-ywux-krf  36 caratteri  ?pli=1&authuser=1
 
 
 
-/*
 
-Cpvy4b V7iHrd
-
-
-oIy2qc -> messaggio
-VfPpkd-kBDsod -> tasto di invio
-
-for (var x in oIy2qc) {
-  if (x=="/") {
-
-  }
-
-}
-if (oIy2qc.text) {
-
-}
-document.querySelector(".VfPpkd-kBDsod").addEventListener("click", function(){
-  console.log(document.querySelector(".oIy2qc").text)
-})
-*/
