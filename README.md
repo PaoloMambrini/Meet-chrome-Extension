@@ -1,8 +1,12 @@
 # Meet-Extension
-a simple meeting extension to enhance the user experience.
+Chrome extension for meet to enhance the user experience. 💻
+
+include:
+- Window popup for change meet theme color 🎨
+- Bar with useful links, (Ex. create new document, gmail, copy-link button...) 🆕
 
 
-You can hange theme color:
+You can change theme color: 
 
 https://user-images.githubusercontent.com/78642070/151841397-8982f68b-8afc-476a-8be3-bcab17b250ba.mp4
 
