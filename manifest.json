@@ -1,0 +1,22 @@
+ {
+  "name": "Estensione Meet",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Di Paolo Mambrini",
+  "icons":{
+    "16": "16x16.png",
+    "48": "16x16.png",
+    "128": "16x16.png"
+  },
+  "content_scripts":[
+    {
+      "matches": ["https://meet.google.com/*"],
+       "css": ["content.css"],
+       "js":["content.js"]
+    }
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "Estensione Meet"
+  }
+}
